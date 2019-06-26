@@ -87,7 +87,12 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #FFA804; }
+	margin-bottom: 20px; display: block; background: #FFAD01; }
+
+.section .index{ margin-bottom: 60px; }
+
+.section .index:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
+	margin-bottom: 20px; display: block; background: black; }
 	
 .margin-t-10{ margin-top: 10px; }
 
@@ -173,7 +178,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
+.portfolio-section .portfolioFilter a.current{  color: black; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
